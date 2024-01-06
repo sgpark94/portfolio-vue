@@ -32,7 +32,7 @@ export default {
 
 <style>
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
