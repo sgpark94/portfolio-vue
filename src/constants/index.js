@@ -1,3 +1,4 @@
+// portfolio 이미지
 import imgThumb1 from "../assets/img/imgThumb1.png"
 import imgThumb2 from "../assets/img/imgThumb2.png"
 import imgThumb3 from "../assets/img/imgThumb3.png"
@@ -22,6 +23,7 @@ import imgThumb21 from "../assets/img/imgThumb21.png"
 import imgThumb22 from "../assets/img/imgThumb22.png"
 import imgThumb23 from "../assets/img/imgThumb23.png"
 import imgThumb24 from "../assets/img/imgThumb24.png"
+import imgThumb25 from "../assets/img/imgThumb25.png"
 
 // Career.vue
 export const careerText = [
@@ -61,6 +63,14 @@ export const careerText = [
 export const portText = [
   {
     num: "01",
+    title: "Portfolio Introduction 소개페이지 (Vue.js)",
+    desc: "개인작업물_사이트 리뉴얼 V2 : Portfolio Introduction 소개페이지 (Responsive)",
+    img: imgThumb25,
+    view: "https://sgpark94.github.io/portfolio-vue/",
+    name: "Portfolio Introduction 소개페이지 V2",
+  },
+  {
+    num: "02",
     title: "라이프캔버스 LifeCanvas",
     desc: "한화생명금융서비스 FP 마케팅관련 자사 웹사이트",
     img: imgThumb24,
@@ -68,7 +78,7 @@ export const portText = [
     name: "라이프캔버스",
   },
   {
-    num: "02",
+    num: "03",
     title: "오렌지터치 (App)",
     desc: "한화생명금융서비스 FP영업관련 자사 어플리케이션",
     img: imgThumb23,
@@ -76,7 +86,7 @@ export const portText = [
     name: "오렌지터치 (App)",
   },
   {
-    num: "03",
+    num: "04",
     title: "한화FP리크루팅 (App)",
     desc: "한화생명금융서비스 FP자격/교육관련 자사 어플리케이션",
     img: imgThumb22,
@@ -84,7 +94,7 @@ export const portText = [
     name: "한화FP리크루팅 (App)",
   },
   {
-    num: "04",
+    num: "05",
     title: "나이스 비즈라인 NICE BizLINE",
     desc: "기업분석 포털 웹사이트 (KISLINE + RM1 통합)",
     img: imgThumb21,
@@ -92,7 +102,7 @@ export const portText = [
     name: "NICE BizLINE",
   },
   {
-    num: "05",
+    num: "06",
     title: "하나드림카 (App)",
     desc: "중고차 거래 플랫폼 (Web + App)",
     img: imgThumb20,
@@ -100,7 +110,7 @@ export const portText = [
     name: "하나드림카 (App)",
   },
   {
-    num: "06",
+    num: "07",
     title: "퍼블리시링크 API (PublishLink API)",
     desc: "토큰포스트(https://www.tokenpost.kr) 사이트 내 뉴스기사 활동관련 (자사코인 등) 자산정보 관리 Admin 웹사이트",
     img: imgThumb19,
@@ -108,7 +118,7 @@ export const portText = [
     name: "퍼블리시링크 API (PublishLink API)",
   },
   {
-    num: "07",
+    num: "08",
     title: "퍼블리시 소프트 Introduction V2",
     desc: "description",
     img: imgThumb18,
@@ -116,7 +126,7 @@ export const portText = [
     name: "퍼블리시 소프트 Introduction V2",
   },
   {
-    num: "08",
+    num: "09",
     title: "태재미래전략연구원 TAEJAE FUTURE CONSENSUS INSTITUTE",
     desc: "태재미래전략연구원(구, 여시재) 웹사이트",
     img: imgThumb1,
@@ -124,7 +134,7 @@ export const portText = [
     name: "태재미래전략연구원 TAEJAE FUTURE CONSENSUS INSTITUTE",
   },
   {
-    num: "09",
+    num: "10",
     title: "토큰포스트 국문판 Tokenpost KR",
     desc: "EconoTimes와 함께하는 블록체인·디지털 자산 전문 미디어, 비트코인 이더리움 디지털 자산 정보 커뮤니티 웹사이트 (국문판)",
     img: imgThumb10,
@@ -132,7 +142,7 @@ export const portText = [
     name: "토큰포스트 국문판 Tokenpost KR",
   },
   {
-    num: "10",
+    num: "11",
     title: "토큰포스트 영문판 Tokenpost EN",
     desc: "EconoTimes와 함께하는 블록체인·디지털 자산 전문 미디어, 비트코인 이더리움 디지털 자산 정보 커뮤니티 웹사이트 (영문판)",
     img: imgThumb11,
@@ -140,7 +150,7 @@ export const portText = [
     name: "토큰포스트 영문판 Tokenpost EN",
   },
   {
-    num: "11",
+    num: "12",
     title: "토큰포스트 일문판 Tokenpost JP",
     desc: "EconoTimes와 함께하는 블록체인·디지털 자산 전문 미디어, 비트코인 이더리움 디지털 자산 정보 커뮤니티 웹사이트 (일본어판)",
     img: imgThumb12,
@@ -148,7 +158,7 @@ export const portText = [
     name: "토큰포스트 일문판 Tokenpost JP",
   },
   {
-    num: "12",
+    num: "13",
     title: "이코노타임즈 Econotimes",
     desc: "대한민국의 국제 경제 전문 미디어 웹사이트",
     img: imgThumb13,
@@ -156,7 +166,7 @@ export const portText = [
     name: "이코노타임즈 Econotimes",
   },
   {
-    num: "13",
+    num: "14",
     title: "한국필란프로티 소사이어티 KSop",
     desc: "한국의 유일한 필란트로피 전문연구 비영리 단체 웹사이트",
     img: imgThumb14,
@@ -164,7 +174,7 @@ export const portText = [
     name: "한국필란프로티 소사이어티 KSop",
   },
   {
-    num: "14",
+    num: "15",
     title: "빅이슈 코리아 Bigissue Korea",
     desc: "홈리스 관련 비영리, 사회적 기업 웹사이트",
     img: imgThumb2,
@@ -172,7 +182,7 @@ export const portText = [
     name: "빅이슈 코리아 Bigissue Korea",
   },
   {
-    num: "15",
+    num: "16",
     title: "Publishsoft CMS Admin 관리페이지",
     desc: "Publishsoft CMS Admin 관리페이지",
     img: imgThumb3,
@@ -180,7 +190,7 @@ export const portText = [
     name: "Publishsoft CMS Admin 관리페이지",
   },
   {
-    num: "16",
+    num: "17",
     title: "퍼블리시 소프트 Introduction V1",
     desc: "퍼블리시 소프트 소개 웹페이지 Version 1",
     img: imgThumb4,
@@ -188,7 +198,7 @@ export const portText = [
     name: "퍼블리시 소프트 Introduction V1",
   },
   {
-    num: "17",
+    num: "18",
     title: "퍼플스완 PurpleSwan",
     desc: "행사 및 전문 컨퍼런스 기획 및 운영관련 웹사이트",
     img: imgThumb5,
@@ -196,7 +206,7 @@ export const portText = [
     name: "퍼플스완 PurpleSwan",
   },
   {
-    num: "18",
+    num: "19",
     title: "위즈덤콘서트 Wisdomconcert",
     desc: "퍼플스완에서 파생된 행사 및 전문 컨퍼런스 기획 및 운영관련 웹사이트",
     img: imgThumb6,
@@ -204,7 +214,7 @@ export const portText = [
     name: "위즈덤콘서트 Wisdomconcert",
   },
   {
-    num: "19",
+    num: "20",
     title: "레드락 Redrock",
     desc: "개인작업물_사이트 리뉴얼 : 레드락 비어하우스",
     img: imgThumb8,
@@ -212,7 +222,7 @@ export const portText = [
     name: "레드락 Redrock",
   },
   {
-    num: "20",
+    num: "21",
     title: "팔도 Paldo",
     desc: "개인작업물_사이트 리뉴얼 : 팔도 (Web + Mobile)",
     img: imgThumb7,
@@ -220,7 +230,7 @@ export const portText = [
     name: "팔도 Paldo",
   },
   {
-    num: "21",
+    num: "22",
     title: "Portfolio Introduction 소개페이지",
     desc: "개인작업물_사이트 리뉴얼 : Portfolio Introduction 소개페이지 (Responsive)",
     img: imgThumb9,
@@ -228,7 +238,7 @@ export const portText = [
     name: "Portfolio Introduction 소개페이지",
   },
   {
-    num: "22",
+    num: "23",
     title: "쿠팡 Coupang",
     desc: "카피사이트",
     img: imgThumb15,
@@ -236,7 +246,7 @@ export const portText = [
     name: "쿠팡 Coupang",
   },
   {
-    num: "23",
+    num: "24",
     title: "네이버 Naver",
     desc: "카피사이트",
     img: imgThumb16,
@@ -244,7 +254,7 @@ export const portText = [
     name: "네이버 Naver",
   },
   {
-    num: "24",
+    num: "25",
     title: "수박씨 Soobakc",
     desc: "카피사이트",
     img: imgThumb17,
