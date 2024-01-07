@@ -8,6 +8,7 @@ import { headerNav } from "../constants";
       <h1 class="header__logo">
         <a href="#">portfolio<em>2024 vue.js</em></a>
       </h1>
+      <a href="https://www.notion.so/6-552f629d5e0c401db79cd17f38348c4d?pvs=4">View Resume</a>
       <nav class="header__nav" :class="{show: isNavVisible}" role="navigation" aria-label="메인 메뉴">
         <ul>
           <li v-for="(nav, key) in headerNav" :key="key">

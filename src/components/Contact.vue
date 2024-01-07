@@ -21,6 +21,9 @@ import { contactText } from '../constants/index'
             <a :href="contact.link" target="_blank">{{ contact.title }}</a>
           </div>
         </div>
+        <div class="resume">
+          <a href="https://www.notion.so/6-552f629d5e0c401db79cd17f38348c4d?pvs=4" target="_blank">이력서 보러가기</a>
+        </div>
       </div>
       <div class="contact__lines bottom" aria-hidden="true">
         <span class="line"></span>
@@ -92,6 +95,17 @@ export default {
         font-size: 24px;
         padding: 0 16px;
         word-break: break-all;
+      }
+    }
+    .resume {
+      margin-top: 100px;
+      padding: 8px 16px;
+      a {
+        font-size: 24px;
+        font-weight: 700;
+        &:hover {
+          text-decoration: underline; 
+        }
       }
     }
   }
